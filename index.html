@@ -2,14 +2,129 @@
 <html>
     <head>
         <title>Calendare</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            body {
+                height: 100%;
+                background-color: rgb(227, 255, 249);
+            }
+            .container {
+                background-color: white;
+                height:100%;
+                border-radius: 12px;
+                border-color: white;
+            }
+            .navbar-event {
+                width: 30%;
+                float: left;
+            } 
+            
+            .calendar {
+                width: 68%;
+                float: right;
+            } 
+
+            .navbar {
+                height: 40px;
+                background-color: rgb(66, 79, 90);
+                padding: 10px;
+            }
+
+            .navbar button{
+                height: 40px;
+                width: 40px;
+
+                color: black;
+                background-color: transparent;
+                border: 3px;
+                border-radius: 5px;
+                border-color: grey;
+            }
+        </style>
     </head>
     <body>
-        <nav>
-            <ol>
-                <li><</li>
-                <li>November 22</li>
-                <li>></li>
-            </ol>
-        </nav>
+        <div class="container navbar-event">
+            <div>
+                <div class="navbar">
+                    <button>+</button>
+                    <button><</button>
+                    <button>today</button>
+                    <button>></button>
+                </div>
+                <div>
+                    <h1>Thursday</h1>
+                    <h3>November 16</h3>
+                </div>
+                <input type="text" id="new_event-field">
+            </div>
+        </div>
+        <div class="container calendar">
+            <div>
+                <table>
+                    <thaed>
+                        <tr>
+                            <th>mon</th>
+                            <th>tue</th>
+                            <th>wed</th>
+                            <th>thu</th>
+                            <th>fri</th>
+                            <th>sat</th>
+                            <th>sun</th>
+                        </tr>
+                    </thaed>
+                    <tbodY>
+                        <tr>
+                            <th></th>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <th>8</th>
+                            <th>9</th>
+                            <th>10</th>
+                            <th>11</th>
+                            <th>12</th>
+                            <th>13</th>
+                        </tr>
+                        <tr>
+                            <th>14</th>
+                            <th>15</th>
+                            <th>16</th>
+                            <th>17</th>
+                            <th>18</th>
+                            <th>19</th>
+                            <th>20</th>
+                        </tr>
+                        <tr>
+                            <th>21</th>
+                            <th>22</th>
+                            <th>23</th>
+                            <th>24</th>
+                            <th>25</th>
+                            <th>26</th>
+                            <th>27</th>
+                        </tr>
+                        <tr>
+                            <th>28</th>
+                            <th>29</th>
+                            <th>30</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tbodY>
+                </table>
+            </div>
+        </div>
     </body>
 </html>
