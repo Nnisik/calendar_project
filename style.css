@@ -1,1 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    height: 100%;
+    background-color: rgb(74, 92, 88);
+}
+
+.container {
+    background-color: white;
+    height:100%;
+    border-radius: 12px;
+    border-color: white;
+}
+
+.navbar-event {
+    width: 30%;
+    height: 100vh;
+    float: left;
+} 
+
+.calendar {
+    justify-content: flex-end;
+    float: right;
+    width: 68.5%;
+    padding-left: 20px;
+} 
+
+.navbar {
+    height: 40px;
+    background-color: rgb(66, 79, 90);
+    padding: 10px;
+}
+
+.navbar button{
+    height: 40px;
+    width: 40px;
+
+    color: black;
+    background-color: white;
+}
+
+table {
+    margin: 20px;
+}
+
+td, th {
+    border: 1px goldenrod;
+    border-radius: 5px;
+    background-color: goldenrod;
+    padding: 50px;
+}
