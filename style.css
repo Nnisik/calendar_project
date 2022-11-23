@@ -25,6 +25,12 @@
 
         background-color: transparent;
         border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+    }
+    .top-panel button:hover {
+        background-color: rgb(207, 207, 207);
     }
     
     #month-header {
@@ -65,5 +71,57 @@
         font-size: 14px;
         font-family: 'Rubik', sans-serif;
         color: darkslategray;
+    }
+
+    .bottom_panel {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+        padding: 20px;
+    }
+    .bottom_panel div {
+        width: 47.5%;
+        height: 350px;
+        border-radius: 10px;
+        background-color: rgb(150, 166, 150);
+    }
+    .bottom_panel button {
+        background-color: rgb(150, 166, 150);
+    }
+    .bottom_panel > div > p {
+        font-size: 20px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 200;
+        margin: 15px 0px 0px 25px;
+    }
+    .bottom_panel > div > div {
+        width: 350px;
+        height: 275px;
+        border-radius: 10px;
+        background-color: rgb(98, 110, 98);
+        margin: 15px 0px 0px 21px;
+    }
+    .bottom_panel p {
+        color: white;
+        letter-spacing: 0.6vh;
+    }
+
+    #new_events {
+        padding: 6px;
+        text-align: center;
+
+
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+        color: white;
+
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        border: none;
+    }
+    #new_events:hover {
+        background-color: rgb(131, 145, 131);
     }
 }
