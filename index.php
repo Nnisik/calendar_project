@@ -9,13 +9,16 @@
     </head>
     <body>
         <div>
-            <header class="top-panel">
-                <button><</button></li>
+            <header class="navbar">
+                <button><</button>
                 <div>
                     <p id="month-header">November 22</p>
                     <p id="today-info">Thursday 23</p>
                 </div>
-                <button>></button>
+                <div>
+                    <button>></button>
+                    <a href="index0.php"><button>UP</button></a>
+                </div>
             </header>
         </div>
         <table id="calendar">
