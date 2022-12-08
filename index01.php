@@ -16,13 +16,17 @@
             </div>
         </nav>
         <div class="container">
-            <h2>Log In</h2>
-            <p>Fill the folowwing fields and continue working with your personal calendar</p>
-            <form method="POST">
-                <input type="text">
-                <input type="password">
-                <input type="submit">
-            </form>
+            <div>
+                <h2>Sign Up</h2>
+                <p>Fill the folowwing gaps to create an account and start planning</p>
+                <form method="POST">
+                    <input type="text">
+                    <input type="text">
+                    <input type="password">
+                    <input type="password">
+                    <input type="submit">
+                </form>
+            </div>
         </div>
     </body>
 </html>
